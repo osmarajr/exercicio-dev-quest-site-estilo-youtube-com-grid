@@ -1,0 +1,32 @@
+.container{
+    width: 900px;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: repeat(2, 543px);
+    column-gap: 17px;
+}
+.video-destaque .imagem-destaque{
+width: 543px;
+height: 217px;
+background-color: #c4c4c4;
+}
+.video-destaque .titulo-destaque{
+    font-size: 18px;
+    font-weight: 700;
+}
+aside .propaganda{
+    background-color: #c4c4c4;
+    width: 270px;
+    height: 56px;
+}
+section .videos-recomendados{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    row-gap: 15px;
+}
+.videos-recomendados.imagem{
+    width: 101px;
+    height: 71px;
+    background-color: #c4c4c4;
+}
