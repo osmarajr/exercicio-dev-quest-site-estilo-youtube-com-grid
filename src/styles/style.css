@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body{
     display: flex;
     justify-content: center;
+    font-family: "Roboto", sans-serif;;
 }
 .container{
     max-width: 900px;
     background-color: #f7f7f7;
     /* margin: 30px; */
-    padding: 30px;
+    padding-top: 38px;
+    padding-inline: 35px;
     display: grid;
     grid-template-columns: repeat(2, 543px);
     column-gap: 17px;
@@ -17,10 +22,23 @@ width: 543px;
 height: 217px;
 background-color: #c4c4c4;
 text-align: center;
+margin-bottom: 12px;
 }
 .video-destaque .titulo-destaque{
+    margin-top: 12px;
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 7px;
+}
+.video-destaque .visualizacoes-destaque{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+.video-destaque .texto-destaque{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 19px;
 }
 
 /* coluna 2  */
@@ -28,7 +46,7 @@ aside .propaganda{
     background-color: #c4c4c4;
     width: 270px;
     height: 56px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .videos-recomendados{
@@ -44,15 +62,17 @@ aside .propaganda{
     height: 71px;
     background-color: #c4c4c4;
     grid-area: imagem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .videos-recomendados.conteudo {
     grid-area: conteudo;
 }
-.videos-recomendados.titulo,
+.videos-recomendados.titulo{
+    font-size: 14px;
+}
 .videos-recomendados.autor,
 .videos-recomendados.visualizacoes,
-.videos-recomendados.tempo-postado
-{
-    font-size: 12px;
+.videos-recomendados.tempo-postado{
+    font-size: 11px;
+    font-weight: 300;
 }
